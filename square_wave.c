@@ -24,5 +24,26 @@
 
 int main(void){
 
+    double Vs1[Npts];
+    double Vs3[Npts];
+    double Vs5[Npts];
+    double Vs7[Npts];
+    double Vs9[Npts];
+    double Vs1n3[Npts];
+    double Vs1n3n5[Npts];
+    double Vs1n3n5n7[Npts];
+    double Vs1n3n5n7n9[Npts];
+    double T[Npts];
+    double Tstep = (Tmax - Tmin) / (Npts - 1);
+    int i;
+
+    //fill in time step array
+    T[0] = Tmin;
+    for(i=1; i<Npts; i++){
+        T[i] = T[i-1] + Tstep;
+    }  
+
+    
+
     return 0;
 }
