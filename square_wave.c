@@ -85,9 +85,9 @@ int main(void){
     tout = fopen("square_comp.csv", "w");  
 
     for (i=0; i<Npts; i++){
-        printf("%e %e %e %e %e %e %e %e %e\n", Vs1[i],Vs3[i],Vs5[i],Vs7[i],Vs9[i],
+        printf("%e, %e, %e, %e, %e, %e, %e, %e, %e\n", Vs1[i],Vs3[i],Vs5[i],Vs7[i],Vs9[i],
         Vs1n3[i], Vs1n3n5[i], Vs1n3n5n7[i], Vs1n3n5n7n9[i]);
-        fprintf(tout, "%e %e %e %e %e %e %e %e %e\n", Vs1[i],Vs3[i],Vs5[i],Vs7[i],Vs9[i],
+        fprintf(tout, "%e, %e, %e, %e, %e, %e, %e, %e, %e\n", Vs1[i],Vs3[i],Vs5[i],Vs7[i],Vs9[i],
         Vs1n3[i], Vs1n3n5[i], Vs1n3n5n7[i], Vs1n3n5n7n9[i]);
 
     }
