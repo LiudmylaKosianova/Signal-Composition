@@ -1,6 +1,6 @@
 # Signal Composition
 
-Creates arrays of sine waves with different apmlitudes and frequencies and then sums them together to see how how the square wave is created.
+Creates arrays of sine waves with different amplitudes and frequencies and then sums them together to see how how the square wave is created.
 
 Sine waves can be used to represent a simple square wave by summing series of sine waves. 
 
